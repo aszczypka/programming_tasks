@@ -1,0 +1,24 @@
+.treeview, .treeview ul { padding: 0; margin: 0; list-style: none; }
+.treeview ul { background-color: white; margin-top: 4px; }
+.treeview .hitarea { height: 16px; width: 16px; margin-left: -16px; float: left; cursor: pointer; }
+* html .hitarea { display: inline; float:none; }
+.treeview a.selected { background-color: #eee; }
+#treecontrol { margin: 1em 0; display: none; }
+
+.treeview .hover { color: red; cursor: pointer; }
+
+
+.treeview .expandable-hitarea { background-position: -80px -3px; }
+.treeview .placeholder { height: 16px; 	width: 16px; display: block; }
+
+.treeview li { 	margin: 0; padding: 3px 0pt 3px 16px; }
+.treeview li.collapsable, .treeview li.expandable { background-position: 0 -176px; }
+
+
+.filetree li { padding: 3px 0 2px 16px; }
+.filetree span.folder, .filetree span.file { padding: 1px 0 1px 16px; display: block; }
+.filetree span.folder { background: url(images/folder.gif) 0 0 no-repeat; }
+.filetree span.file { background: url(images/file.gif) 0 0 no-repeat; }
+.filetree li.expandable span.folder { background: url(images/folder-closed.gif) 0 0 no-repeat; }
+form { width: 380px; } 
+fieldset {text-align:center; }

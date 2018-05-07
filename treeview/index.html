@@ -1,0 +1,27 @@
+<html>
+<head id="Head1" runat="server">
+<title>Json Test</title>
+	<script src="lib/jquery.js" type="text/javascript"></script>
+	<script src="lib/jquery.cookie.js" type="text/javascript"></script>
+
+	<link rel="stylesheet" href="treeview.css" />
+	<script src="treeview.js" type="text/javascript"></script>
+	<script type="text/javascript" src="site.js"></script>
+</head>
+
+<body>
+<form id="jsonFile" name="jsonFile" enctype="multipart/form-data" method="post">
+
+  <fieldset>
+     <h2>Kreator Drzewka z pliku JSON</h2>
+     <input type='file' id='fileinput'>
+     <input type='button' id='btnLoad' value='£aduj dane' onclick='loadFile();'>
+  </fieldset>
+    <div id="MainContainer">
+        <div id="Tree"></div>
+    </div>
+
+</form>
+
+</body>
+</html>
